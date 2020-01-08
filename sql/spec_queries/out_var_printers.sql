@@ -1,0 +1,1 @@
+select * from printers where format = :format AND color_palette = :palette;

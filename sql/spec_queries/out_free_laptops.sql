@@ -1,0 +1,1 @@
+select L.id_laptop,D.maker, L.model, L.speed, L.ram, L.hdd  from laptops L INNER JOIN devices D ON D.model = L.model WHERE id_employee_in_use IS NULL;
